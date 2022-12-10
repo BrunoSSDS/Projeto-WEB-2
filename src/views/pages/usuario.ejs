@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+    <%- include('../partials/header'); %>
+</header>
+
+<form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Cadastrar Nome Completo</label>
+      <input type="nome" class="form-control" id="exampleInputnome"  placeholder="Cadastrar Nome Completo">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Cadastrar Nome Para Login</label>
+        <input type="login" class="form-control" id="exampleInputlogin"  placeholder="Cadastrar Nome Para Login">
+      </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Cadastrar Matricula/label>
+        <input type="matricula" class="form-control" id="exampleInputmatricula"  placeholder="Cadastrar matricula">
+      </div>  
+
+    <div class="form-group">
+      <label for="exampleInputPassword1">senha</label>
+      <input type="senha" class="form-control" id="exampleInputsenha1" placeholder="senha">
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Não sou um Robo</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+  </form>
+
+
+<footer>
+    <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>

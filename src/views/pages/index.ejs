@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+<body class="container-fluid">
+
+<main>
+    <div class="p-3 mb-2 bg-primary text-white">Logar ao Portal do Professor</div>
+    <div class="jumbotron">
+
+        <div style="display: flex; flex-direction: column; align-items: center">
+            <form>
+                <!-- Login -->
+                <div class="form-outline mb-4">
+                    <input type="email" id="form2Example1" class="form-control" />
+                    <label class="form-label" for="form2Example1">Nome ou Matrícula</label>
+                </div>
+
+                <!-- senha -->
+                <div class="form-outline mb-4">
+                    <input type="password" id="form2Example2" class="form-control" />
+                    <label class="form-label" for="form2Example2">Senha</label>
+                </div>
+
+                <!-- salvar -->
+                <button type="button" class="btn btn-primary btn-block mb-4">salvar</button>
+
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>Novo usuario </p>
+                    <a href="/usuario">Register</a><br><br>
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-facebook-f"></i>
+
+                </div>
+            </form>
+        </div>
+          
+        <div class="p-3 mb-2 bg-primary text-white">Obrigado Pela Preferência</div>
+
+    </div>
+</main>
+
+
+<footer>
+    <%- include('../partials/footer'); %>
+</footer>
+
+    <a href="alunos">Notas Aluno</a><br><br>
+    <a href="professores">Portal Do Professor</a>
+
+</body>
+</html>
